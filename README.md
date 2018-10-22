@@ -10,6 +10,13 @@ This utility adds undo / redo capability to your PureMVC Haxe application.
 ## Status
 Production - [Version 2.0](https://github.com/guruas3/puremvc-undo-multicore/blob/v2/VERSION)
 
+Version 2.0 changes:
+* Remove haxe 2 support
+* Refactor Class names
+* Cleanup spacings
+
+To use this version with haxelib: `haxelib git puremvc-undo-multicore https://github.com/guruas3/puremvc-undo-multicore.git v2`
+
 ## Platforms / Technologies
 * [Haxe](http://en.wikipedia.org/wiki/Haxe)
 
