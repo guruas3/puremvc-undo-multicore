@@ -1,12 +1,16 @@
 PureMVC Haxe Utility - Undo (Ported)
 --------------------------------------------------------------------------
-Release Date: 4/20/13
+Release Date: 8/23/17
     Platform: Haxe  
-     Version: 1 
-    Revision: 2
+     Version: 2
+    Revision: 0
      Authors: Dragos Dascalita <dragos.dascalita@puremvc.org>
             : Zjnue Brzavi <zjnue.brzavi@puremvc.org>
 --------------------------------------------------------------------------
+2.0 - Remove haxe 2 support
+	  Refactor Class names
+      Cleanup spacings
+
 1.2 - Haxe 3 support added by zjnue
 
 1.1 - Libraries contain version number - CH 

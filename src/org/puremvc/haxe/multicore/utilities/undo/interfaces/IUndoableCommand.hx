@@ -6,17 +6,13 @@
 package org.puremvc.haxe.multicore.utilities.undo.interfaces;
 
 import org.puremvc.haxe.multicore.interfaces.ICommand;
-import org.puremvc.haxe.multicore.interfaces.INotification;
 import org.puremvc.haxe.multicore.interfaces.INotifier;
+import org.puremvc.haxe.multicore.interfaces.INotification;
 
-#if haxe3
-interface IUndoableCommand extends ICommand extends INotifier
-#else
-interface IUndoableCommand implements ICommand, implements INotifier
-#end
-{
-	function getNote() : INotification;
-	function undo() : Void;
-	function redo() : Void;
-	function executeCommand() : Void;
+interface IUndoableCommand extends ICommand extends INotifier {
+
+	function undo():Void;
+	function redo():Void;
+	function executeCommand():Void;
+	function getNote():INotification;
 }

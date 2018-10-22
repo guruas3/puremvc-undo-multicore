@@ -13,8 +13,7 @@ package org.puremvc.haxe.multicore.utilities.undo.enums;
  * 
  * When building an IUndoableCommand,  set note.type = one of these options
  */
-class UndoableCommandTypeEnum
-{
-	public static inline var RECORDABLE_COMMAND : String = "RecordableCommand";
-	public static inline var NON_RECORDABLE_COMMAND : String = "NonRecordableCommand";
+class UndoableCommandType {
+	public static inline var RECORDABLE_COMMAND:String = "RecordableCommand";
+	public static inline var NON_RECORDABLE_COMMAND:String = "NonRecordableCommand";
 }
