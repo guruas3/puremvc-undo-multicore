@@ -1,0 +1,14 @@
+{
+	"name": "puremvc-undo-multicore",
+  	"license": "BSD",
+	"tags": ["framework", "puremvc", "mvc","cross","cross-platform","flash","html5","ios","undo","command"],
+	"description": "This utility adds undo / redo capability to your PureMVC Haxe application.",
+	"contributors": ["guruas3"],
+	"classPath":"src/",
+	"releasenote": "Initial release on Haxelib. ",
+	"version": "1.2.0",
+	"url": "https://github.com/PureMVC/puremvc-haxe-util-undo",
+	"dependencies": {
+    	"puremvc-multicore": ""
+	}
+}
